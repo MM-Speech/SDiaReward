@@ -16,11 +16,13 @@
   <a href="https://github.com/MM-Speech/SDiaReward"><img src="https://img.shields.io/badge/GitHub-New_Repository-black?logo=github"></a>
   <a href="https://arxiv.org/abs/2603.14889"><img src="https://img.shields.io/badge/Paper-arXiv-red"></a>
   <a href="https://sdiareward.github.io/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
-  <a href="https://huggingface.co/MYJOKERML/SDiaReward-7B"><img src="https://img.shields.io/badge/🤗_Model"></a>
-  <a href="https://huggingface.co/datasets/MYJOKERML/SDiaReward"><img src="https://img.shields.io/badge/🤗_Dataset"></a>
+  <a href="https://huggingface.co/MYJOKERML/SDiaReward-7B"><img src="https://img.shields.io/badge/🤗_Models-HuggingFace-orange"></a>
+  <a href="https://huggingface.co/datasets/MYJOKERML/SDiaReward"><img src="https://img.shields.io/badge/🤗_Dataset-HuggingFace-orange"></a>
 </p>
 
+
 ## 🔔 News
+
 - [x] **[2026.04.06]** 🎉 Our paper has been accepted to **ACL 2026 Main Conference**!
 - [x] **[2026.03.17]** 💻 We have officially released the training and evaluation code!
 - [x] **[2026.03.17]** 🔥 Our paper is now available on [![arXiv](https://img.shields.io/badge/arXiv-2603.14889-b31b1b.svg)](https://arxiv.org/abs/2603.14889)
@@ -34,6 +36,7 @@
 <p align="center">
   <img src="assets/head_v3.png" width="500" alt="SDiaReward Framework">
 </p>
+
 
 SDiaReward is an end-to-end multi-turn reward model for evaluating spoken dialogue quality. It operates directly on full multi-turn speech episodes and is optimized with pairwise preference supervision, enabling joint assessment of **modality-awareness** (prosody, emotion, acoustic naturalness) and **colloquialness** (conversational spontaneity vs. scripted style) in a single evaluator.
 
@@ -107,16 +110,19 @@ The conversation JSON should contain a list of message dicts with interleaved te
 ### Training
 
 **3B model:**
+
 ```bash
 bash scripts/train_3b.sh
 ```
 
 **7B model:**
+
 ```bash
 bash scripts/train_7b.sh
 ```
 
 Before running, edit the script to set:
+
 - `MODEL_NAME_OR_PATH`: path to base Qwen2.5-Omni checkpoint
 - `DATASET_NAME`: path to the preference dataset
 - `CUDA_VISIBLE_DEVICES` / `NUM_GPUS`: adjust for your hardware
