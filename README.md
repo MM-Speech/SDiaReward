@@ -1,20 +1,31 @@
+> [!WARNING]  
+> **🚨 MIGRATION NOTICE: This repository has been moved!**
+>
+> The SDiaReward project has been entirely migrated to a new organization. All future maintenance, updates, models, and datasets will be released at the new official repository:
+> **👉 [https://github.com/MM-Speech/SDiaReward](https://github.com/MM-Speech/SDiaReward) 👈**
+>
+> Please update your bookmarks and visit the new repository for the latest code. **Thank you for your continuous support and interest in our research! 💖**
+
+---
+
 # SDiaReward: Modeling and Benchmarking Spoken Dialogue Rewards with Modality and Colloquialness
 
-> Official repository for "Modeling and Benchmarking Spoken Dialogue Rewards with Modality and Colloquialness" (**Accepted to ACL 2026 Main Conference** 🎉).
+> [Official repository](https://github.com/MM-Speech/SDiaReward) for "Modeling and Benchmarking Spoken Dialogue Rewards with Modality and Colloquialness" (**Accepted to ACL 2026 Main Conference** 🎉).
 
 <p align="center">
+  <a href="https://github.com/MM-Speech/SDiaReward"><img src="https://img.shields.io/badge/GitHub-New_Repository-black?logo=github"></a>
   <a href="https://arxiv.org/abs/2603.14889"><img src="https://img.shields.io/badge/Paper-arXiv-red"></a>
   <a href="https://sdiareward.github.io/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
-  <a href="https://huggingface.co/your_huggingface_org"><img src="https://img.shields.io/badge/🤗_Models-Coming_Soon-orange"></a>
-  <a href="https://huggingface.co/datasets/your_huggingface_org"><img src="https://img.shields.io/badge/🤗_Dataset-Coming_Soon-orange"></a>
+  <a href="https://huggingface.co/MYJOKERML/SDiaReward-7B"><img src="https://img.shields.io/badge/🤗_Model"></a>
+  <a href="https://huggingface.co/datasets/MYJOKERML/SDiaReward"><img src="https://img.shields.io/badge/🤗_Dataset"></a>
 </p>
 
 ## 🔔 News
 - [x] **[2026.04.06]** 🎉 Our paper has been accepted to **ACL 2026 Main Conference**!
 - [x] **[2026.03.17]** 💻 We have officially released the training and evaluation code!
 - [x] **[2026.03.17]** 🔥 Our paper is now available on [![arXiv](https://img.shields.io/badge/arXiv-2603.14889-b31b1b.svg)](https://arxiv.org/abs/2603.14889)
-- [ ] **[TODO]** Release SDiaReward-3B and 7B model weights on HuggingFace.
-- [ ] **[TODO]** Release ESDR-Bench and SDiaReward-Dataset.
+- [x] **[2026.06.10]** Release SDiaReward-3B and 7B model weights on HuggingFace.
+- [x] **[2026.06.10]** Release ESDR-Bench and SDiaReward-Dataset.
 
 ---
 
@@ -32,14 +43,14 @@ Built on [Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni), SDiaReward exte
 
 SDiaReward achieves state-of-the-art pairwise preference accuracy on ESDR-Bench, significantly outperforming general-purpose audio LLMs:
 
-| Model | Modality Micro | Modality Macro | Colloquialness | Overall Micro | Overall Macro |
-|---|---|---|---|---|---|
-| GPT-4o Audio | 51.12 | 50.47 | 98.00 | 57.91 | 74.23 |
-| Gemini 2.5 Pro | 72.63 | 70.50 | 98.80 | 76.42 | 84.65 |
-| Qwen 2.5 Omni 7B | 51.85 | 51.82 | 49.20 | 51.47 | 50.51 |
-| Kimi-Audio | 65.30 | 63.38 | 66.00 | 65.40 | 64.69 |
-| **SDiaReward 3B** | 88.62 | 79.20 | 92.00 | 89.11 | 85.60 |
-| **SDiaReward 7B** | **96.61** | **94.91** | 97.20 | **96.70** | **96.06** |
+| Model             | Modality Micro | Modality Macro | Colloquialness | Overall Micro | Overall Macro |
+| ----------------- | -------------- | -------------- | -------------- | ------------- | ------------- |
+| GPT-4o Audio      | 51.12          | 50.47          | 98.00          | 57.91         | 74.23         |
+| Gemini 2.5 Pro    | 72.63          | 70.50          | 98.80          | 76.42         | 84.65         |
+| Qwen 2.5 Omni 7B  | 51.85          | 51.82          | 49.20          | 51.47         | 50.51         |
+| Kimi-Audio        | 65.30          | 63.38          | 66.00          | 65.40         | 64.69         |
+| **SDiaReward 3B** | 88.62          | 79.20          | 92.00          | 89.11         | 85.60         |
+| **SDiaReward 7B** | **96.61**      | **94.91**      | 97.20          | **96.70**     | **96.06**     |
 
 ## Architecture
 
