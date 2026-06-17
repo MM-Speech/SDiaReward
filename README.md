@@ -1,28 +1,16 @@
-> [!WARNING]  
-> **🚨 MIGRATION NOTICE: This repository has been moved!**
->
-> The SDiaReward project has been entirely migrated to a new organization. All future maintenance, updates, models, and datasets will be released at the new official repository:
-> **👉 [https://github.com/MM-Speech/SDiaReward](https://github.com/MM-Speech/SDiaReward) 👈**
->
-> Please update your bookmarks and visit the new repository for the latest code. **Thank you for your continuous support and interest in our research! 💖**
-
----
-
 # SDiaReward: Modeling and Benchmarking Spoken Dialogue Rewards with Modality and Colloquialness
 
 > [Official repository](https://github.com/MM-Speech/SDiaReward) for "Modeling and Benchmarking Spoken Dialogue Rewards with Modality and Colloquialness" (**Accepted to ACL 2026 Main Conference** 🎉).
 
 <p align="center">
-  <a href="https://github.com/MM-Speech/SDiaReward"><img src="https://img.shields.io/badge/GitHub-New_Repository-black?logo=github"></a>
+  <a href="https://github.com/MM-Speech/SDiaReward"><img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github"></a>
   <a href="https://arxiv.org/abs/2603.14889"><img src="https://img.shields.io/badge/Paper-arXiv-red"></a>
   <a href="https://sdiareward.github.io/"><img src="https://img.shields.io/badge/Project-Page-blue"></a>
   <a href="https://huggingface.co/MYJOKERML/SDiaReward-7B"><img src="https://img.shields.io/badge/🤗_Models-HuggingFace-orange"></a>
   <a href="https://huggingface.co/datasets/MYJOKERML/SDiaReward"><img src="https://img.shields.io/badge/🤗_Dataset-HuggingFace-orange"></a>
 </p>
 
-
 ## 🔔 News
-
 - [x] **[2026.04.06]** 🎉 Our paper has been accepted to **ACL 2026 Main Conference**!
 - [x] **[2026.03.17]** 💻 We have officially released the training and evaluation code!
 - [x] **[2026.03.17]** 🔥 Our paper is now available on [![arXiv](https://img.shields.io/badge/arXiv-2603.14889-b31b1b.svg)](https://arxiv.org/abs/2603.14889)
